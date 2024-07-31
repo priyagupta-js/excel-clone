@@ -13,14 +13,9 @@ padding: 10px 14px;
 
 }
 .logo{
-  /* display: inline-block; */
   float: left;
+  cursor: pointer;
 }
-/* .logo img {
-  float: left;
- 
-} */
-
 .menu-bar-1{
   display: flex;
 }
@@ -29,11 +24,14 @@ padding: 10px 14px;
   display: flex;
   background-color: #dfe5eb;
   border-radius: 25px;
+  cursor: pointer;
+  width: auto;
+  padding: 10px 10px;
 }
 
 .menu-links 
 {
-  padding : 8px 60px;
+  padding : 8px 17px;
 }
 .filename {
   font-size: 20px;
@@ -45,34 +43,33 @@ padding: 10px 14px;
   padding: 5px 20px 5px 0;
 }
 
-.section-1 , .section-2 , .section-3{
+.section-1 , .section-2 , .section-3, .section-4, .section-5{
   display: flex;
-  padding: 10px 12px;
+  padding: 5px 12px;
+  border-right: 2px solid rgb(19, 19, 19);
 } 
-
+.display_content
+{
+  display:flex;
+  border: 1px solid white;
+  background-color: #fff;
+  padding: 5px;
+}
+.display {
+  padding-left: 10px;
+}
 .option{
 padding-left:6px ;
 }
 
+.fontSize {
+  border: 1px solid black;
+  padding: 4px;
+}
 ul{
   list-style-type: none;
 }
 
-
-/* ul .edit-options{
-  list-style-type: none;
+ul .options{
+  padding-left: 15px;
 }
-li .button{
-  display: inline;
-} */
-/*
-.undo {
-  float: left;
-} */
-/* .button{
-  padding: 5px;
-} */
-
-/* .features_tab{
-  display: flex;
-} */

@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Fontawesome icon -->
+    <script
+      src="https://kit.fontawesome.com/d156cf74c6.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="styles.css" />
     <title>Excel</title>
   </head>
@@ -13,33 +19,54 @@
       <div class="menu-bar-1">
         <!-- container - 1 -->
         <div class="logo">
-          <img src="assets/excel.png" width="40px"/>
+          <img src="assets/excel.png" width="40px" />
         </div>
         <div class="menu-links">
           <div class="filename">Untitled spreadsheet</div>
           <div class="menu-options">
-            <!--  -->
             <p class="menu">File</p>
             <p class="menu">Edit</p>
             <p class="menu">view</p>
-        </div>
+          </div>
         </div>
       </div>
       <div class="menu-bar-2">
-         <!-- container-2 -->
+        <!-- container-2 -->
         <ul class="section-1">
-          <li class="option undo">undo</li>
-          <li class="option redo">redo</li>
+          <li class="option undo"><i class="fa-solid fa-rotate-left"></i></li>
+          <li class="option redo"><i class="fa-solid fa-rotate-right"></i></li>
         </ul>
         <ul class="section-2">
-          <li class="option undo">undo</li>
-          <li class="option redo">redo</li>
+          <li class="option font">
+            <select name="fonts" id="fonts">
+              <option value="arial">Default(Arial)</option>
+              <option value="times-new-roman">Times New Roman</option>
+              <option value="times-new-roman">Georgia</option>
+            </select>
+          </li>
         </ul>
         <ul class="section-3">
-          <li class="option undo">undo</li>
-          <li class="option undo">redo</li>
+          <li>
+            <span class="decrement">-</span>
+            <span class="option fontSize">10</span>
+            <span class="increment">+</span>
+          </li>
+        </ul>
+        <ul class="section-4">
+          <li class="options bold"><i class="fa-solid fa-bold"></i></li>
+          <li class="options italic"><i class="fa-solid fa-italic"></i></li>
+          <li class="options strike"><i class="fa-solid fa-strikethrough"></i></li>
+          <li class="options font"><i class="fa-solid fa-font"></i></li>
+          <li class="options fill"><i class="fa-solid fa-fill"></i></li>
+        </ul>
+        <ul class="section-5">
+          <li><i class="fa-solid fa-align-left"></i></li>
         </ul>
       </div>
+    </div>
+    <div class="display_content">
+      <div class="display row_number">H6</div>
+      <div class="display display_text">Some Text here.....</div>
     </div>
     <script src="index.js"></script>
   </body>
