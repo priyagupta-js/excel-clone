@@ -8,17 +8,31 @@
  
 .container {
 background-color: #f9fbfd;
-height: 100px;
+height: 130px;
 padding: 10px 14px;
 
 }
-
-.logo img {
+.logo{
+  /* display: inline-block; */
   float: left;
-  /* padding-left: 20px; */
+}
+/* .logo img {
+  float: left;
+ 
+} */
+
+.menu-bar-1{
+  display: flex;
 }
 
-.menu-links {
+.menu-bar-2{
+  display: flex;
+  background-color: #dfe5eb;
+  border-radius: 25px;
+}
+
+.menu-links 
+{
   padding : 8px 60px;
 }
 .filename {
@@ -30,12 +44,20 @@ padding: 10px 14px;
   float: left;
   padding: 5px 20px 5px 0;
 }
- 
-.menu-buttons{
-  clear:both;
-  background-color: #dfe5eb;
-  border-radius: 20px;
+
+.section-1 , .section-2 , .section-3{
+  display: flex;
+  padding: 10px 12px;
 } 
+
+.option{
+padding-left:6px ;
+}
+
+ul{
+  list-style-type: none;
+}
+
 
 /* ul .edit-options{
   list-style-type: none;
@@ -49,4 +71,8 @@ li .button{
 } */
 /* .button{
   padding: 5px;
+} */
+
+/* .features_tab{
+  display: flex;
 } */
