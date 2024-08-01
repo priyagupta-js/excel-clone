@@ -38,6 +38,13 @@ padding: 10px 14px;
   color: rgb(112, 111, 111);
 }
 
+.filename:hover
+{
+border: 1px solid black;
+}
+.menu-options{
+  cursor: pointer;
+}
 .menu{
   float: left;
   padding: 5px 20px 5px 0;
