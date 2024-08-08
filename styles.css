@@ -12,14 +12,18 @@ height: 130px;
 padding: 10px 14px;
 
 }
-.logo{
-  float: left;
-  cursor: pointer;
-}
 .menu-bar-1{
   display: flex;
 }
 
+.logo{
+  float: left;
+  cursor: pointer;
+}
+.menu-links 
+{
+  padding : 8px 17px;
+}
 
 .menu-bar-2{
   display: flex;
@@ -30,10 +34,7 @@ padding: 10px 14px;
   padding: 10px 10px;
 }
 
-.menu-links 
-{
-  padding : 8px 17px;
-}
+
 .filename {
   /* position: relative; */
   font-size: 20px;
@@ -46,16 +47,18 @@ border: 1px solid black;
 }
 
 .menu-options{
+  display: flex;
+  flex-direction: row;
   cursor: pointer;
 }
 .menu{
-  float: left;
+  /* text-align: center; */
+  /* float: left; */
   padding: 5px 20px 5px 0;
 }
 
 .menu-options .menu:hover{
   background-color: rgb(192, 192, 192);
-  /* background-color: aquamarine; */
   }
 
 .section-1 , .section-2 , .section-3, .section-4, .section-5{
